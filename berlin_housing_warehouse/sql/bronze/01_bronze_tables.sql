@@ -1,3 +1,0 @@
--- 01_bronze_tables.sql
--- Raw / bronze layer tables for the Berlin Housing Warehouse
--- Source: Berlin Open Data, Census 2022, Mietspiegel, OSM POI extracts
