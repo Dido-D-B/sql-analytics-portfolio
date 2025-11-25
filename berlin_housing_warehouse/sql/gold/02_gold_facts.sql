@@ -1,0 +1,1 @@
+-- 02_gold_facts.sql
