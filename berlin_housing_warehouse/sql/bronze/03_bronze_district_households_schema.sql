@@ -1,0 +1,43 @@
+-- district_households_schema.sql
+-- Bronze table: district_households
+-- Raw household composition, tenure, rent & rooms per district
+
+CREATE TABLE `berlin-housing.bronze.district_households` (
+  district STRING,
+  total_households STRING,
+  single_household STRING,
+  single_household_percentage FLOAT64,
+  couples_without_children STRING,
+  couples_without_children_percentage FLOAT64,
+  couples_with_children STRING,
+  couples_with_children_percentage FLOAT64,
+  single_parents STRING,
+  single_parents_percentage FLOAT64,
+  WG STRING,
+  WG_percentage FLOAT64,
+  only_seniors STRING,
+  only_seniors_percentage FLOAT64,
+  seniors_and_young_adults STRING,
+  seniors_and_young_adults_percentage FLOAT64,
+  owner STRING,
+  owner_percentage FLOAT64,
+  tenant STRING,
+  tenant_percentage FLOAT64,
+  EUR_per_squared_meter FLOAT64,
+  `1_person_EUR_per_squared_meter` FLOAT64,
+  `2_person_EUR_per_squared_meter` FLOAT64,
+  `3_person_EUR_per_squared_meter` FLOAT64,
+  `4_person_EUR_per_squared_meter` FLOAT64,
+  `5_person_EUR_per_squared_meter` FLOAT64,
+  `6_person_EUR_per_squared_meter` FLOAT64,
+  average_rooms FLOAT64,
+  `1_person_average_rooms` FLOAT64,
+  `2_person_average_rooms` FLOAT64,
+  `3_person_average_rooms` FLOAT64,
+  `4_person_average_rooms` FLOAT64,
+  `5_person_average_rooms` FLOAT64,
+  `6_person_average_rooms` FLOAT64,
+  average_person_per_household FLOAT64,
+  average_years_of_residence FLOAT64,
+  avarage_living_space_m2 FLOAT64
+);
